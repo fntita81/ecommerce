@@ -13,3 +13,5 @@
 17:17:52.616 [main] INFO  testCases.TC002_Login - *****starting tc002_logintest**********
 17:22:00.031 [main] INFO  testCases.TC002_Login - *****starting tc002_logintest**********
 17:23:19.702 [main] INFO  testCases.TC002_Login - *****starting tc002_logintest**********
+19:49:23.443 [main] INFO  testCases.TC001_AccountRegistrationWithGrid - Starting setup for OS: windows, Browser: chrome, Mode: local
+19:49:49.849 [main] INFO  testCases.TC001_AccountRegistrationWithGrid - Starting setup for OS: windows, Browser: chrome, Mode: local

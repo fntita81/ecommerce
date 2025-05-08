@@ -29,9 +29,9 @@ public class BaseClassGrid {
 	  public Properties p;  //  properties class
 	  
 	  
-	  @BeforeClass(groups= {"sanity","Regression","Master"})
-	  @BeforeClass(groups = {"sanity", "Regression", "Master"})
 	  @Parameters({"os", "browser"})
+	  @BeforeClass(alwaysRun = true)
+
 	  public void setup(String os, String br) throws InterruptedException, IOException {
 	      // Load config.properties
 	      FileReader file = new FileReader("./src/test/resources/config.properties");
